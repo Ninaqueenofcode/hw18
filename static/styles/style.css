@@ -1,1 +1,127 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+body {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(233, 222, 208);
+}
+[class*="col-"] {
+  width: 100%;
+}
+@media screen and (max-width: 700px) {
+  [class*="col-"] .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
 
+header h1 {
+  font-size: 100px;
+  text-shadow: 0px 0px 5px rgb(105, 82, 25), 0px 0px 10px #b393d3,
+    0px 0px 10px white, 0px 0px 20px grey;
+  position: absolute;
+  top: 2%;
+  left: 20%;
+  font: bold 80px/0.8 arial;
+  color: rgb(19, 20, 18);
+}
+
+header img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 100%;
+}
+.container {
+  margin: 60px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+h2 {
+  background: linear-gradient(-45deg, #b1b0a9, #4d4c4b);
+  color: #f4f4f4;
+}
+.caption-border {
+  width: 800px;
+  margin: 70px auto 0;
+  border: 10px solid #4d4c4b;
+  background: white;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.caption-border img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  inline-size: 200px;
+}
+li {
+  padding: 20px;
+  color: black;
+}
+li:before {
+  padding-right: 10px;
+  font-weight: bold;
+  color: #4d4c4b;
+  content: "\2606";
+  transition-duration: 0.5s;
+}
+li:hover:before {
+  color: #4d4c4b;
+  content: "\2605";
+}
+img {
+  float: right;
+  margin: 5px;
+}
+
+footer {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: large;
+  margin-top: auto;
+  padding: 30px;
+  text-align: center;
+  color: black;
+  background-color: #4d4c4b;
+}
